@@ -11,6 +11,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // ✅ Importa il router DOPO Bootstrap
 import router from './router';
 
+import './registerServiceWorker'
+
 const app = createApp(App);
 app.use(router);
 app.mount('#app');
